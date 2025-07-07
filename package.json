@@ -1,0 +1,25 @@
+{
+  "name": "boti",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+   "express": "^4.17.3",
+    "ws":"^7.5.10",
+    "peer": "^0.6.1"
+  },
+  "engines": {
+    "node": "16.14.2"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/boti"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
