@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Crear el servidor WebSocket
-const wss = new WebSocket.Server({ port: PORT });
+const wss = new WebSocket.Server({ port: 3000 });
 
 // Almacenar clientes conectados
 const clients = new Set();
